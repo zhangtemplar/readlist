@@ -1,3 +1,11 @@
+# Unsupervised Learning for Physical Interaction through Video Prediction
+
+A core challenge for an agent learning to interact with the world is to predict how its actions affect objects in its environment. Many existing methods for learning the dynamics of physical interactions require labeled object information. However, to scale real-world interaction learning to a variety of scenes and objects, acquiring labeled data becomes increasingly impractical. To learn about physical object motion without labels, we develop an action-conditioned video prediction model that explicitly models pixel motion, by predicting a distribution over pixel motion from previous frames. Because our model explicitly predicts motion, it is partially invariant to object appearance, enabling it to generalize to previously unseen objects. To explore video prediction for real-world interactive agents, we also introduce a dataset of 50,000 robot interactions involving pushing motions, including a test set with novel objects. In this dataset, accurate prediction of videos conditioned on the robot's future actions amounts to learning a "visual imagination" of different futures based on different courses of action. Our experiments show that our proposed method not only produces more accurate video predictions, but also more accurately predicts object motion, when compared to prior methods.
+
+![Robot prediction](https://storage.googleapis.com/push_gens/gengifs0/10_55.gif)
+
+The paper is availalbe at [http://arxiv.org/abs/1605.07157]
+
 # SSD: Single Shot MultiBox Detector
 
 Paper is available at [https://arxiv.org/abs/1512.02325] and code available at [https://github.com/weiliu89/caffe/tree/ssd]
