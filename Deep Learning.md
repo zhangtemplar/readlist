@@ -2,10 +2,9 @@
 
 This is an [implementation](https://github.com/timsainb/Tensorflow-MultiGPU-VAE-GAN.git) of the VAE-GAN based on the implementation described in *<a href="http://arxiv.org/abs/1512.09300">Autoencoding beyond pixels using a learned similarity metric</a>*
 
-The abstract reads: We present an autoencoder that leverages learned representations to better measure similarities in data space. By combining a variational autoencoder with a generative adversarial network we can use learned feature representations in the GAN discriminator as basis for the VAE reconstruction objective. Thereby, we replace element-wise errors with feature-wise errors to better capture the data distribution while offering invariance towards e.g. translation. We apply our method to images of faces and show that it outperforms VAEs with element-wise similarity measures in terms of visual fidelity. Moreover, we show that the method learns an embedding in which high-level abstract visual features (e.g. wearing glasses) can be modified using simple arithmetic.
-
 We have three networks, an  <font color="#38761d"><strong>Encoder</strong></font>,
 a <font color="#1155cc"><strong>Generator</strong></font>, and a <font color="#ff0000"><strong>Discriminator</strong></font>. 
+
     - The <font color="#38761d"><strong>Encoder</strong></font> learns to map input x onto z space (latent space)
     - The <font color="#1155cc"><strong>Generator</strong></font> learns to generate x from z space
     - The <font color="#ff0000"><strong>Discriminator</strong></font> learns to discriminate whether the image being put in is real, or generated
