@@ -4,6 +4,16 @@
 
 We've designed a distributed system for sharing enormous datasets - for researchers, by researchers. The result is a scalable, secure, and fault-tolerant repository for data, with blazing fast download speeds.
 
+# Annotated English Gigaword
+
+[Annotated English Gigaword] (https://catalog.ldc.upenn.edu/LDC2012T21), a dataset often used in summarization research. Annotated English Gigaword was developed by Johns Hopkins Universitys Human Language Technology Center of Excellence. The goal of the annotation is to provide a standardized corpus for knowledge extraction and distributional semantics which enables broader involvement in large-scale knowledge-acquisition efforts by researchers. Annotated English Gigaword contains the nearly ten million documents (over four billion words) of the original English Gigaword Fifth Edition.
+
+# Google Brain robot datasets
+
+The Google Brain team releases [massive robotics datasets](https://sites.google.com/site/brainrobotdata/home) from two of their recent papers to further drive the field forward. Their grasping dataset contains roughly 650,000 examples of robot grasping attempts ([original paper](http://arxiv.org/abs/1603.02199)). Their push dataset contains roughly 59,000 examples of robot pushing motions, including one training set (train) and two test sets of previously seen (testseen) and unseen (testnovel) objects ([original paper](http://arxiv.org/abs/1605.07157)).
+
+![example](https://cdn-images-1.medium.com/max/800/1*AuIFxH36ZxB4dkDuzI_1RQ.png)
+
 # SpaceNet
 SpaceNet is a corpus of commercial satellite imagery and labeled training data being made available at no cost to the public to foster innovation in the development of computer vision algorithms to automatically extract information from remote sensing data. The website is [https://aws.amazon.com/public-data-sets/spacenet/]
 
