@@ -5,9 +5,9 @@ This is an [implementation](https://github.com/timsainb/Tensorflow-MultiGPU-VAE-
 We have three networks, an  <font color="#38761d"><strong>Encoder</strong></font>,
 a <font color="#1155cc"><strong>Generator</strong></font>, and a <font color="#ff0000"><strong>Discriminator</strong></font>. 
 
-    - The <font color="#38761d"><strong>Encoder</strong></font> learns to map input x onto z space (latent space)
-    - The <font color="#1155cc"><strong>Generator</strong></font> learns to generate x from z space
-    - The <font color="#ff0000"><strong>Discriminator</strong></font> learns to discriminate whether the image being put in is real, or generated
+  - The <font color="#38761d"><strong>Encoder</strong></font> learns to map input x onto z space (latent space)
+  - The <font color="#1155cc"><strong>Generator</strong></font> learns to generate x from z space
+  - The <font color="#ff0000"><strong>Discriminator</strong></font> learns to discriminate whether the image being put in is real, or generated
 
 ![vae gan outline](https://github.com/timsainb/Tensorflow-MultiGPU-VAE-GAN/blob/master/network_outline.png?raw=true)
 
