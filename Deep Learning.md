@@ -1,3 +1,16 @@
+# Neural Network Zoo
+
+With new neural network architectures popping up every now and then, it’s hard to keep track of them all. Knowing all the abbreviations being thrown around (DCIGN, BiLSTM, DCGAN, anyone?) can be a bit overwhelming at first. Asimov Institute composed a cheat sheet containing many of those architectures. Most of these are neural networks, some are completely different beasts. Though all of these architectures are presented as novel and unique, when we check the node structures… their underlying relations started to make more sense.
+
+![model](http://www.asimovinstitute.org/wp-content/uploads/2016/09/neuralnetworks.png)
+
+# UberNet
+
+In this work we introduce a convolutional neural network (CNN) that jointly handles low-, mid-, and high-level vision tasks in a unified architecture that is trained end-to-end: (a) boundary detection (b) normal estimation © saliency estimation (d) semantic segmentation  (e) human part segmentation (f)  semantic boundary detection, (g) region proposal generation and object detection. We obtain competitive performance while jointly addressing all of these tasks in 0.7 seconds per frame on a single GPU.
+
+The demo can be found [here](http://cvn.ecp.fr/ubernet/) and the paper [here](http://arxiv.org/abs/1609.02132)
+![demo](http://cvn.ecp.fr/ubernet/im3.png)
+
 # End-to-End Deep Learning for Self-Driving Cars
 
 In a new automotive application, we have used convolutional neural networks (CNNs) to map the raw pixels from a front-facing camera to the steering commands for a self-driving car. This powerful end-to-end approach means that with minimum training data from humans, the system learns to steer, with or without lane markings, on both local roads and highways. The system can also operate in areas with unclear visual guidance such as parking lots or unpaved roads.
