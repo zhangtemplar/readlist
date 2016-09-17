@@ -1,3 +1,15 @@
+# Pixel-CNN and Pixel-RNN
+
+[Pixel-CNN](https://arxiv.org/abs/1606.05328) and [Pixel-RNN](https://arxiv.org/abs/1601.06759) showed that it was possible to generate complex natural images not only one pixel at a time, but one colour-channel at a time, requiring thousands of predictions per image.
+
+![pixel-cnn](https://ai2-s2-public.s3.amazonaws.com/figures/2016-03-25/8e4ab54564fb492dcae9a1e862aedd3e52fb258b/3-Figure2-1.png)
+
+# Wavenet
+
+[Wavenet](https://deepmind.com/blog/wavenet-generative-model-raw-audio/) is a deep generative model of raw audio waveforms. WaveNets are able to generate speech which mimics any human voice and which sounds more natural than the best existing Text-to-Speech systems, reducing the gap with human performance by over 50%. The same network can be used to synthesize other audio signals such as music, and present some striking samples of automatically generated piano pieces. The network models the conditional probability to generate the next sample in the audio waveform, given all previous samples and possibly additional parameters. A tensor-flow based implementation can be found [here](https://github.com/ibab/tensorflow-wavenet)
+
+![model](https://storage.googleapis.com/deepmind-live-cms.google.com.a.appspot.com/documents/BlogPost-Fig2-Anim-160908-r01.gif)
+
 # Neural Network Zoo
 
 With new neural network architectures popping up every now and then, it’s hard to keep track of them all. Knowing all the abbreviations being thrown around (DCIGN, BiLSTM, DCGAN, anyone?) can be a bit overwhelming at first. Asimov Institute composed a cheat sheet containing many of those architectures. Most of these are neural networks, some are completely different beasts. Though all of these architectures are presented as novel and unique, when we check the node structures… their underlying relations started to make more sense.
