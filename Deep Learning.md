@@ -1,3 +1,9 @@
+# Attention and Augmented Recurrent Neural Networks
+
+Recurrent neural networks are one of the staples of deep learning, allowing neural networks to work with sequences of data like text, audio and video. The basic RNN design struggles with longer sequences, but a special variant – “long short-term memory” networks – can even work with these. Such models have been found to be very powerful, achieving remarkable results in many tasks including translation, voice recognition, and image captioning. As a result, recurrent neural networks have become very widespread in the last few years. As this has happened, we’ve seen a growing number of attempts to augment RNNs with new properties. Four directions which stand out as particularly exciting are described [here](http://distill.pub/2016/augmented-rnns/)
+
+![attention](http://distill.pub/2016/augmented-rnns/assets/rnn_preview_ai.svg)
+
 # Pixel-CNN and Pixel-RNN
 
 [Pixel-CNN](https://arxiv.org/abs/1606.05328) and [Pixel-RNN](https://arxiv.org/abs/1601.06759) showed that it was possible to generate complex natural images not only one pixel at a time, but one colour-channel at a time, requiring thousands of predictions per image.
