@@ -4,6 +4,10 @@
 
 We've designed a distributed system for sharing enormous datasets - for researchers, by researchers. The result is a scalable, secure, and fault-tolerant repository for data, with blazing fast download speeds.
 
+# One Billion Word Benchmark
+
+[One Billion Word Benchmark](http://arxiv.org/abs/1312.3005), a large language corpus in English which was released in 2013. This dataset contains about one billion words, and has a vocabulary size of about 800K words. It contains mostly news data. Since sentences in the training set are shuffled, models can ignore the context and focus on sentence level language modeling.
+
 # Annotated English Gigaword
 
 [Annotated English Gigaword] (https://catalog.ldc.upenn.edu/LDC2012T21), a dataset often used in summarization research. Annotated English Gigaword was developed by Johns Hopkins Universitys Human Language Technology Center of Excellence. The goal of the annotation is to provide a standardized corpus for knowledge extraction and distributional semantics which enables broader involvement in large-scale knowledge-acquisition efforts by researchers. Annotated English Gigaword contains the nearly ten million documents (over four billion words) of the original English Gigaword Fifth Edition.
