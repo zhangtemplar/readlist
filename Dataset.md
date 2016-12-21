@@ -1,3 +1,7 @@
+# MS MARCO
+
+[Microsoft MAchine Reading COmprehension Dataset](http://www.msmarco.org/) is a new large scale dataset for reading comprehension and question answering. In MS MARCO, all questions are sampled from real anonymized user queries. The context passages, from which answers in the dataset are derived, are extracted from real web documents using the most advanced version of the Bing search engine. The answers to the queries are human generated if they could summarize the answer.
+
 # Academic Torrents
 
 [Academic Torrents](http://academictorrents.com/) makes 15.49TB of research data available.
